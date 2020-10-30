@@ -2,10 +2,10 @@
 # This a simple python script for updating players in bulk using a .csv file containing MAC addresses.
 import argparse
 import csv
-import os
-import sys
 import json
+import os
 import re
+import sys
 from urllib import request
 
 API_SERVER_BASE_URL = os.getenv("BPU_API_SERVER", "http://localhost:8000")
